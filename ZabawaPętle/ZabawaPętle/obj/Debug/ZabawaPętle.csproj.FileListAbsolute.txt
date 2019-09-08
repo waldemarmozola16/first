@@ -1,0 +1,7 @@
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\bin\Debug\ZabawaPętle.exe.config
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\bin\Debug\ZabawaPętle.exe
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\bin\Debug\ZabawaPętle.pdb
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\obj\Debug\ZabawaPętle.csprojAssemblyReference.cache
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\obj\Debug\ZabawaPętle.csproj.CoreCompileInputs.cache
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\obj\Debug\ZabawaPętle.exe
+C:\Users\Waldemar\source\repos\ZabawaPętle\ZabawaPętle\obj\Debug\ZabawaPętle.pdb

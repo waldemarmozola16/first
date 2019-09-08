@@ -1,0 +1,7 @@
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\bin\Debug\WladcyNa BanknotachPLN.exe.config
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\bin\Debug\WladcyNa BanknotachPLN.exe
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\bin\Debug\WladcyNa BanknotachPLN.pdb
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\obj\Debug\WladcyNa BanknotachPLN.csproj.CoreCompileInputs.cache
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\obj\Debug\WladcyNa BanknotachPLN.exe
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\obj\Debug\WladcyNa BanknotachPLN.pdb
+C:\Users\Waldemar\source\repos\WladcyNa BanknotachPLN\WladcyNa BanknotachPLN\obj\Debug\WladcyNa BanknotachPLN.csprojAssemblyReference.cache

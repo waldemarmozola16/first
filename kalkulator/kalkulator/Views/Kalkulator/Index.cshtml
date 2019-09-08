@@ -1,0 +1,108 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<img src="~/Logo/johansson.jpg" />
+
+<form action="/Kalkulator/Index" method="post">
+	<div class="form-group">
+		<label for="expression">Wpisz formułe złożoną z dwóch liczb:</label>
+		<input type="text" class="form-control" id="expression" name="expression"
+			   placeholder="Wpisz dwie liczby i znak wyrażenia" value="@Model.expression" />
+
+
+	</div>
+	<br />
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<input type="button" value="1" class="btn btn-secondary" style="width:100%!important"
+					   id="1" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="2" class="btn btn-secondary" style="width:100%!important"
+					   id="2" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="3" class="btn btn-secondary" style="width:100%!important"
+					   id="3" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="+" class="btn btn-primary" style="width:100%!important"
+					   id="+" onClick="add_element_to_input(this.id)" />
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-3">
+				<input type="button" value="4" class="btn btn-secondary" style="width:100%!important"
+					   id="4" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="5" class="btn btn-secondary" style="width:100%!important"
+					   id="5" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="6" class="btn btn-secondary" style="width:100%!important"
+					   id="6" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="-" class="btn btn-primary" style="width:100%!important"
+					   id="-" onClick="add_element_to_input(this.id)" />
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-3">
+				<input type="button" value="7" class="btn btn-secondary" style="width:100%!important"
+					   id="7" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="8" class="btn btn-secondary" style="width:100%!important"
+					   id="8" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="9" class="btn btn-secondary" style="width:100%!important"
+					   id="9" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="/" class="btn btn-primary" style="width:100%!important"
+					   id="/" onClick="add_element_to_input(this.id)" />
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-3">
+				<input type="button" value="*" class="btn btn-primary" style="width:100%!important"
+					   id="*" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="button" value="0" class="btn btn-secondary" style="width:100%!important"
+					   id="0" onClick="add_element_to_input(this.id)" />
+			</div>
+			<div class="col-3">
+				<input type="submit" class="btn btn-warning" value="Wynik" style="width:100%!important" />
+			</div>
+
+			<div class="col-3">
+				<input type="button" value="Wyczyść" class="btn btn-danger" style="width:100%!important"
+					   id="Wyczysc" onClick="clear_input()" />
+			</div>
+		</div>
+
+	</div>
+
+</form>
+
+<script>
+	function add_element_to_input(value_id) {
+		var inputValue = document.getElementById("expression").value;
+		document.getElementById("expression").value = inputValue + value_id;
+	}
+
+	function clear_input() {
+		document.getElementById("expression").value = "";
+	}
+</script>
